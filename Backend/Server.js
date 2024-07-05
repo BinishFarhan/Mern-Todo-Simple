@@ -6,7 +6,7 @@ const dbconnect = require('./db.js')
 
 
 require('dotenv').config({ path: '.env' })
-console.log('env', process.env.PORT, process.env.MONGODB_URI )
+// console.log('env', process.env.PORT, process.env.MONGODB_URI )
 
 
 const app = express()
